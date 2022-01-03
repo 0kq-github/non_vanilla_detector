@@ -5,3 +5,4 @@ tellraw @s {"text":" データパック、コマンドが正常に動作しな�
 tellraw @s {"text":"\n#####################################################","color":"red"}
 
 scoreboard players set @s 0kq.detector 1
+scoreboard players reset @s 0kq.leave
