@@ -12,3 +12,5 @@ execute if score #paper 0kq.detector matches 1 run data modify storage 0kq: dete
 execute if score #paper 0kq.detector matches 1 run scoreboard players set #detect 0kq.detector 1
 
 kill @e[tag=0kq.Detector,limit=1]
+
+function 0kq_detector:forge
