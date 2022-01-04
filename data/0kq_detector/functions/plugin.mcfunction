@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["0kq.Detector"]}
+summon armor_stand ~ ~ ~ {Tags:["0kq.Detector"],Invisible:1b}
 
 execute store success score #bukkit 0kq.detector run data get entity @e[tag=0kq.Detector,limit=1] "Bukkit.updateLevel"
 execute store success score #spigot 0kq.detector run data get entity @e[tag=0kq.Detector,limit=1] "Spigot.ticksLived"
